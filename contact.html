@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+</head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" title="HOME">HOME</a></li>
+          <li><a href="list-articles.html" title="Liste des articles">Liste des articles</a></li>
+          <li><a href="contact.html" title="Mes contacts">Mes contacts</a></li>
+        </ul>
+      </nav>
+
+      <h1>Ma page de contact</h1>
+    </header>
+    <section>
+      <form name="contact-form" action="URL" method="post">
+        <div>
+        <label for="email-id">Entre ton email</label>
+        <input id="email-id" type="email" name="email" placeholder="Entrer votre adresse">
+      </div>
+
+        <div>
+        <label for="subject-id">Entre ton sujet</label>
+        <input id="subject-id" type="text" name="subject" placeholder="Quel est ta question ?">
+      </div>
+
+        <div>
+        <label for="question-id">Entre ta question</label>
+        <textarea id="question-id" name="question" cols="30" rows="1" placeholder="Votre contenu"></textarea>
+      </div>
+
+        <div>
+        <label for="response-id">Veux-tu une réponse rapide ?</label>
+        <input id="response-id" type="radio" name="response" value="1">Oui
+        <input type="radio" name="response" value="0"checked>Non
+      </div>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+    <footer>
+      <p>copyright 2017 - le blog</p>
+    </footer>
+  </body>
+</html>
